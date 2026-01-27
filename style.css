@@ -27,4 +27,16 @@ button {
   font-size: 18px;
   line-height: 1.5;
   min-height: 150px;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* vertikal default */
+  justify-content: center; /* tengah vertikal */
+  align-items: center;     /* tengah horizontal */
+  min-height: 100vh;       /* tinggi minimal full layar */
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
