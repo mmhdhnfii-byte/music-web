@@ -11,6 +11,12 @@ const lyrics = [
   { time: 7, text: ".............."},
 ];
 
+audio.addEventListener("timeupdate", () => {
+  if(index < lyrics.length && audio.currentTime >= lyrics[index].time){
+    lyricElement.textContent = lyrics[index].text; // ganti teks lirik
+    index++;
+  }
+});
 let currentLyricIndex = 0;
 
 playButton.addEventListener('click', () => {
@@ -27,6 +33,7 @@ audio.addEventListener('timeupdate', () => {
   }
 
 });
+
 
 
 
