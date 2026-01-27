@@ -4,7 +4,7 @@ const lyricsDiv = document.getElementById('lyrics');
 
 // Lirik lagu dengan waktu (detik)
 const lyrics = [
-  { time: 6 text: "mengapa tuhan pertemuka" }
+  { time: 6, text: "mengapa tuhan pertemuka" }
   { time: 7, text: "kita yang tak mungkin menyatu" }
   { time: 6, text: "aku yang telah terikat janji " }
   { time: 4, text: "engkau pun begitu" }
@@ -27,5 +27,6 @@ audio.addEventListener('timeupdate', () => {
   }
 
 });
+
 
 
