@@ -40,3 +40,10 @@ body {
   padding: 0;
   text-align: center;
 }
+body {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  min-height: 100vh;       /* tinggi layar penuh */
+}
+
