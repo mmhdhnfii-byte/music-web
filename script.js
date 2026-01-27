@@ -4,10 +4,11 @@ const lyricsDiv = document.getElementById('lyrics');
 
 // Lirik lagu dengan waktu (detik)
 const lyrics = [
-  { time: 0, text: "Lirik baris 1" },
-  { time: 5, text: "Lirik baris 2" },
-  { time: 10, text: "Lirik baris 3" },
-  { time: 15, text: "Lirik baris 4" }
+  { time: 6, text: "mengapa tuhan pertemuka" },
+  { time: 7, text: "kita yang tak mungkin menyatu" },
+  { time: 6, text: "aku yang telah terikat janji " },
+  { time: 4, text: "engkau pun begitu" },
+  { time: 7, text: ".............."},
 ];
 
 let currentLyricIndex = 0;
@@ -24,4 +25,5 @@ audio.addEventListener('timeupdate', () => {
     lyricsDiv.innerHTML += lyrics[currentLyricIndex].text + "<br>";
     currentLyricIndex++;
   }
+
 });
