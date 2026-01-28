@@ -1,7 +1,7 @@
 body {
   font-family: sans-serif;
   text-align: center;
-  padding: 100px;
+  padding: 80px;
   background-color: #8B0000;
 }
 
@@ -10,7 +10,7 @@ container {
   max-width:600px;
   height:60vh;
   border:2px solid black;
-  padding:20px;
+  padding:30px;
   box-sizing:border-box;
   text-align:center;
   border-radius: 50px;
@@ -53,6 +53,7 @@ body {
   align-items: center;     /* vertical */
   min-height: 100vh;       /* tinggi layar penuh */
 }
+
 
 
 
