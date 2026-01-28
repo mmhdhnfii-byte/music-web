@@ -4,7 +4,7 @@ const lyricsDiv = document.getElementById('lyrics');
 
 // Lirik lagu dengan waktu (detik)
 const lyrics = [
-  { time: 0, text: "..they said.." },
+  { time: 1, text: "..they said.." },
   { time: 1.5,text: "..all teenagers scare the livin shit out of me.." },
   { time: 7,text: "..they could care less as long as someone bleed.. " },
   { time: 11,text: "..So darken your clothes, or strike a violent pose.." },
@@ -33,6 +33,7 @@ audio.addEventListener('timeupdate', () => {
   }
 
 });
+
 
 
 
