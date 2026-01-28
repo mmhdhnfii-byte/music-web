@@ -6,7 +6,7 @@ body {
 }
 
 container {
-  width:90%;
+  width:100%;
   max-width:600px;
   height:60vh;
   border:2px solid black;
@@ -53,6 +53,7 @@ body {
   align-items: center;     /* vertical */
   min-height: 100vh;       /* tinggi layar penuh */
 }
+
 
 
 
