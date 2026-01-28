@@ -5,7 +5,7 @@ body {
   background-color: 8B0000;
 }
 
-.container {
+container {
   width:90%;
   max-width:600px;
   height:60vh;
@@ -53,6 +53,7 @@ body {
   align-items: center;     /* vertical */
   min-height: 100vh;       /* tinggi layar penuh */
 }
+
 
 
 
