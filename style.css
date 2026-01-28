@@ -1,5 +1,5 @@
 body {
-  font-family:impact,charcoal, sans-serif;
+  font-family: sans-serif;
   text-align: center;
   padding: 100px;
   background-color: #8B0000;
@@ -39,7 +39,7 @@ body {
   margin:0;
   padding:0;
   display: flex;
-  flex-direction: column; /* vertikal default */
+  flex-direction: center; /* vertikal default */
   justify-content: center; /* tengah vertikal */
   align-items: center;     /* tengah horizontal */
   min-height: 100vh;       /* tinggi minimal full layar */
@@ -53,6 +53,7 @@ body {
   align-items: center;     /* vertical */
   min-height: 100vh;       /* tinggi layar penuh */
 }
+
 
 
 
