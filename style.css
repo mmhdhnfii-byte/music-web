@@ -13,7 +13,7 @@ body {
   padding:20px;
   box-sizing:border-box;
   text-align:center;
-  background: 8B0000;
+  background: F5F5F5;
   border-radius: 50px;
   box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
 }
@@ -54,6 +54,7 @@ body {
   align-items: center;     /* vertical */
   min-height: 100vh;       /* tinggi layar penuh */
 }
+
 
 
 
