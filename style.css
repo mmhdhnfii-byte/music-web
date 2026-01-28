@@ -1,8 +1,8 @@
 body {
-  font-family: impact, charcoal, sans-serif;
+  font-family:impact,charcoal, sans-serif;
   text-align: center;
   padding: 100px;
-  background-color: #f0f0f0;
+  background-color: #8B0000;
 }
 
 .container {
@@ -54,6 +54,7 @@ body {
   align-items: center;     /* vertical */
   min-height: 100vh;       /* tinggi layar penuh */
 }
+
 
 
 
