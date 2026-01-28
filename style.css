@@ -60,3 +60,16 @@ button:hover {
   color: #111;
   min-height: 120px;
 }
+
+.card {
+  animation: popIn 0.8s ease-out forwards;
+  transform: scale(0.9);
+  opacity: 0;
+}
+
+@keyframes popIn {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
