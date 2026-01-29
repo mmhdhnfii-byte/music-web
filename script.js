@@ -25,22 +25,7 @@ playButton.addEventListener('click', () => {
   lyricsDiv.innerHTML = "";
 });
 
-// Update lirik sesuai waktu musik
-audio.addEventListener('timeupdate', () => {
-  if (currentLyricIndex < lyrics.length && audio.currentTime >= lyrics[currentLyricIndex].time) {
-    lyricsDiv.innerHTML += lyrics[currentLyricIndex].text + "<br>";
-    currentLyricIndex++;
-  }
 
-});
-
-
-const lyrics = [
-  "All teenagers scare the living shit out of me",
-  "They could care less as long as someone bleeds",
-  "So darken your clothes or strike a violent pose",
-  "Maybe they'll leave you alone, but not me"
-];
 
 let index = 0;
 const lyricEl = document.getElementById("lyrics");
@@ -49,6 +34,7 @@ setInterval(() => {
   lyricEl.textContent = lyrics[index];
   index = (index + 1) % lyrics.length;
 }, 3000);
+
 
 
 
