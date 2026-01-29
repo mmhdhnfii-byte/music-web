@@ -16,7 +16,7 @@ body {
 }
 
 /* KOLOM / CONTAINER PUTIH */
-.container {
+container {
   background-color: #ffffff;
   width: 90%;
   max-width: 600px;
@@ -61,7 +61,7 @@ button:hover {
   min-height: 120px;
 }
 
-.card {
+card {
   animation: popIn 0.8s ease-out forwards;
   transform: scale(0.9);
   opacity: 0;
@@ -73,3 +73,4 @@ button:hover {
     opacity: 1;
   }
 }
+
