@@ -27,13 +27,12 @@ playButton.addEventListener('click', () => {
 
 
 
-let index = 0;
-const lyricEl = document.getElementById("lyrics");
 
 setInterval(() => {
   lyricEl.textContent = lyrics[index];
   index = (index + 1) % lyrics.length;
 }, 3000);
+
 
 
 
